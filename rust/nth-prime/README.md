@@ -1,3 +1,8 @@
+
+[My Solution](https://exercism.io/my/solutions/64dab4c9c0e9429f8147240959206aea)
+
+---
+
 # Nth Prime
 
 Given a number n, determine what the nth prime is.

@@ -1,4 +1,6 @@
 {
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
     "files.exclude": {
         "**/.git": true,
         "**/.svn": true,
@@ -6,5 +8,7 @@
         "**/CVS": true,
         "**/.DS_Store": true,
         "**/target": true
-    }
+    },
+    "rust-analyzer.updates.askBeforeDownload": false,
+    "rust-analyzer.updates.channel": "nightly"
 }

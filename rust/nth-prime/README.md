@@ -2,6 +2,19 @@
 
 [My Solution](https://exercism.io/my/solutions/64dab4c9c0e9429f8147240959206aea)
 
+#### Another Attempt
+
+```rust
+// The following code also pass the tests but it's slower.
+pub fn nth(n: u32) -> u32 {
+    (2..).filter(|x| is_prime(x)).nth(n as usize).unwrap()
+}
+
+fn is_prime(n: &u32) -> bool {
+    !(2..*n).any(|x| n % x == 0)
+}
+```
+
 #### My Favorite Solutions
 
 - https://exercism.io/tracks/rust/exercises/nth-prime/solutions/001ad7b801d34b9e86ebc85a46116380

@@ -5,8 +5,12 @@ on:
       - master
     paths:
       - "rust/nth-prime/src/lib.rs"
+  pull_request:
+    paths:
+      - "rust/nth-prime/src/lib.rs"
 defaults:
-  working-directory: rust/nth-prime
+  run:
+    working-directory: rust/nth-prime
 jobs:
   clippy:
     name: Clippy
@@ -18,16 +22,13 @@ jobs:
     - name: Install stable toolchain with clippy available
       uses: actions-rs/toolchain@v1
       with:
-      profile: minimal
-      toolchain: stable
-      override: true
-      components: clippy
+        profile: minimal
+        toolchain: stable
+        override: true
+        components: clippy
 
     - name: Run cargo clippy
-      uses: actions-rs/cargo@v1
-      with:
-      command: clippy
-      args: -- -D warnings
+      run: cargo clippy -- -D warnings
   
   rustfmt:
     name: Format
@@ -39,16 +40,13 @@ jobs:
     - name: Install stable toolchain with rustfmt available
       uses: actions-rs/toolchain@v1
       with:
-      profile: minimal
-      toolchain: stable
-      override: true
-      components: rustfmt
+        profile: minimal
+        toolchain: stable
+        override: true
+        components: rustfmt
 
     - name: Run cargo fmt
-      uses: actions-rs/cargo@v1
-      with:
-      command: fmt
-      args: --all -- --check
+      run: cargo fmt --all -- --check
 
   test:
     name: cargo test
@@ -58,22 +56,21 @@ jobs:
     - name: Cache cargo registry
       uses: actions/cache@v1
       with:
-      path: ~/.cargo/registry
-      key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
+        path: ~/.cargo/registry
+        key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
     - name: Cache cargo index
       uses: actions/cache@v1
       with:
-      path: ~/.cargo/git
-      key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
+        path: ~/.cargo/git
+        key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
     - name: Cache cargo build
       uses: actions/cache@v1
       with:
-      path: target
-      key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
+        path: target
+        key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
     - name: cargo test
-      uses: actions-rs/cargo@v1
       env:
-      RUST_BACKTRACE: full
-      with:
-      command: test
-      args: -v --all
+        RUST_BACKTRACE: full
+      run: |
+      cargo test -v --all
+      cargo test -v --all -- --ignored

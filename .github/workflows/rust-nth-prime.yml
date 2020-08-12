@@ -72,5 +72,5 @@ jobs:
       env:
         RUST_BACKTRACE: full
       run: |
-      cargo test -v --all
-      cargo test -v --all -- --ignored
+        cargo test -v --all
+        cargo test -v --all -- --ignored

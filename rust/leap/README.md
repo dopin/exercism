@@ -1,3 +1,10 @@
+
+![Rust Leap](https://github.com/dopin/exercism/workflows/Rust%20Leap/badge.svg)
+
+- [My Old Solution](https://exercism.io/tracks/rust/exercises/leap/solutions/6ac07e7ecbd14175ac2cdb86fb59910b)
+
+---
+
 # Leap
 
 Given a year, report if it is a leap year.

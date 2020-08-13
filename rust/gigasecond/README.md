@@ -1,3 +1,9 @@
+![Rust Gigasecond](https://github.com/dopin/exercism/workflows/Rust%20Gigasecond/badge.svg)
+
+[My Old Solution](https://exercism.io/tracks/rust/exercises/gigasecond/solutions/720ba3b0255f4432b519f80159ca36b8)
+
+---
+
 # Gigasecond
 
 Given a moment, determine the moment that would be after a gigasecond

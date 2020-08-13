@@ -1,0 +1,76 @@
+name: Rust Raindrops
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "rust/raindrops/src/lib.rs"
+  pull_request:
+    paths:
+      - "rust/raindrops/src/lib.rs"
+defaults:
+  run:
+    working-directory: rust/raindrops
+jobs:
+  clippy:
+    name: Clippy
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v1
+
+    - name: Install stable toolchain with clippy available
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+        override: true
+        components: clippy
+
+    - name: Run cargo clippy
+      run: cargo clippy -- -D warnings
+  
+  rustfmt:
+    name: Format
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout sources
+      uses: actions/checkout@v1
+
+    - name: Install stable toolchain with rustfmt available
+      uses: actions-rs/toolchain@v1
+      with:
+        profile: minimal
+        toolchain: stable
+        override: true
+        components: rustfmt
+
+    - name: Run cargo fmt
+      run: cargo fmt --all -- --check
+
+  test:
+    name: cargo test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - name: Cache cargo registry
+      uses: actions/cache@v1
+      with:
+        path: ~/.cargo/registry
+        key: ${{ runner.os }}-cargo-registry-${{ hashFiles('**/Cargo.lock') }}
+    - name: Cache cargo index
+      uses: actions/cache@v1
+      with:
+        path: ~/.cargo/git
+        key: ${{ runner.os }}-cargo-index-${{ hashFiles('**/Cargo.lock') }}
+    - name: Cache cargo build
+      uses: actions/cache@v1
+      with:
+        path: target
+        key: ${{ runner.os }}-cargo-build-target-${{ hashFiles('**/Cargo.lock') }}
+    - name: cargo test
+      env:
+        RUST_BACKTRACE: full
+      run: |
+        cargo test -v --all
+        cargo test -v --all -- --ignored

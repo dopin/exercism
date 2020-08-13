@@ -23,4 +23,4 @@ IOW, remnants.
 | [Gigasecond](rust/gigasecond) | [Link](https://exercism.io/tracks/rust/exercises/gigasecond/solutions/720ba3b0255f4432b519f80159ca36b8) | ![Rust Gigasecond](https://github.com/dopin/exercism/workflows/Rust%20Gigasecond/badge.svg) |
 | [Bob](rust/bob) | [Link](https://exercism.io/tracks/rust/exercises/bob/solutions/cb5522a2bfba46ecb751bafd821c0375) | ![Rust Bob](https://github.com/dopin/exercism/workflows/Rust%20Bob/badge.svg) |
 | [Hamming](rust/hamming) | [Link](https://exercism.io/my/solutions/d734f892887149cfaf7a0d087af02efd) | ![Rust Hamming](https://github.com/dopin/exercism/workflows/Rust%20Hamming/badge.svg) |
-| [Scrabble Score](rust/scrabble-score) | [Link](https://exercism.io/my/solutions/4fee20ee87d340b98a36b1d8d140d4a1) | ![Rust Scrabble Score](https://github.com/dopin/exercism/workflows/Rust%20Scrabble%20Score/badge.svg) |
+| [Scrabble Score](rust/scrabble-score) | [Link](https://exercism.io/tracks/rust/exercises/scrabble-score/solutions/4fee20ee87d340b98a36b1d8d140d4a1) | ![Rust Scrabble Score](https://github.com/dopin/exercism/workflows/Rust%20Scrabble%20Score/badge.svg) |

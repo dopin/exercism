@@ -1,3 +1,9 @@
+[Rust Scrabble Score](https://github.com/dopin/exercism/workflows/Rust%20Scrabble%20Score/badge.svg)
+
+[My Solution](https://exercism.io/tracks/rust/exercises/scrabble-score/solutions/4fee20ee87d340b98a36b1d8d140d4a1)
+
+---
+
 # Scrabble Score
 
 Given a word, compute the Scrabble score for that word.

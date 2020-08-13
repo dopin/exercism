@@ -6,6 +6,7 @@ IOW, remnants.
 ## Ruby
 
 - [Ruby Hamming](ruby/hamming) ![Ruby Hamming](https://github.com/dopin/exercism/workflows/Ruby%20Hamming/badge.svg)
+- [Ruby Gigasecond](ruby/gigasecond) ![Ruby Gigasecond](https://github.com/dopin/exercism/workflows/Ruby%20Gigasecond/badge.svg)
 
 ## Rust
 

@@ -1,5 +1,5 @@
 pub fn score(word: &str) -> usize {
-    word.to_lowercase().chars().map(score_char).fold(0, |acc, x| acc + x)
+    word.to_lowercase().chars().map(score_char).sum()
 }
 
 fn score_char(char: char) -> usize {

@@ -1,0 +1,27 @@
+name: Ruby Gigasecond
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "ruby/gigasecond/gigasecond.rb"
+  pull_request:
+    paths:
+      - "ruby/gigasecond/gigasecond.rb"
+defaults:
+  run:
+    working-directory: ruby/gigasecond
+
+jobs:
+  build:
+    runs-on: ubuntu-16.04
+    strategy:
+      matrix:
+        ruby: [ "2.7" ]
+    name: Ruby ${{ matrix.ruby }} Tests
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - run: ruby gigasecond_test.rb

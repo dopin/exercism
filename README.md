@@ -14,7 +14,7 @@ IOW, remnants.
 
 | Exercise | Solution | GitHub Actions Badge |
 |--|--|--|
-| [Hello World](rust/hello-world) | [Link]https://exercism.io/tracks/rust/exercises/hello-world/solutions/a00f1e85f03d4aac9539b4ecce982647) | ![Rust Hello World](https://github.com/dopin/exercism/workflows/Rust%20Hello%20World/badge.svg) |
+| [Hello World](rust/hello-world) | [Link](https://exercism.io/tracks/rust/exercises/hello-world/solutions/a00f1e85f03d4aac9539b4ecce982647) | ![Rust Hello World](https://github.com/dopin/exercism/workflows/Rust%20Hello%20World/badge.svg) |
 | [Leap](rust/leap) | [Link](https://exercism.io/tracks/rust/exercises/leap/solutions/6ac07e7ecbd14175ac2cdb86fb59910b) | ![Rust Leap](https://github.com/dopin/exercism/workflows/Rust%20Leap/badge.svg) |
 | [Raindrops](rust/raindrops) | [Link](https://exercism.io/tracks/rust/exercises/raindrops/solutions/71b7f8dfbfa840c381f19624d582b4e3) | ![Rust Raindrops](https://github.com/dopin/exercism/workflows/Rust%20Raindrops/badge.svg) |
 | [Nth Prime](rust/nth-prime) | [Link](https://exercism.io/my/solutions/64dab4c9c0e9429f8147240959206aea) | ![Rust Nth Prime](https://github.com/dopin/exercism/workflows/Rust%20Nth%20Prime/badge.svg) |

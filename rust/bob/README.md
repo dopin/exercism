@@ -1,3 +1,9 @@
+![Rust Bob](https://github.com/dopin/exercism/workflows/Rust%20Bob/badge.svg)
+
+[My Old Solution](https://exercism.io/tracks/rust/exercises/bob/solutions/cb5522a2bfba46ecb751bafd821c0375)
+
+---
+
 # Bob
 
 Bob is a lackadaisical teenager. In conversation, his responses are very limited.

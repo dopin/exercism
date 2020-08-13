@@ -1,3 +1,7 @@
+[My Solution](https://exercism.io/tracks/rust/exercises/beer-song/solutions/84588627807440288b98c0c01ee30e91)
+
+---
+
 # Beer Song
 
 Recite the lyrics to that beloved classic, that field-trip favorite: 99 Bottles of Beer on the Wall.

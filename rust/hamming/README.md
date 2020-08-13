@@ -1,3 +1,10 @@
+[Rust Hamming](https://github.com/dopin/exercism/workflows/Rust%20Hamming/badge.svg)
+
+
+[My Solution](https://exercism.io/tracks/rust/exercises/hamming/solutions/d734f892887149cfaf7a0d087af02efd)
+
+---
+
 # Hamming
 
 Calculate the Hamming Distance between two DNA strands.

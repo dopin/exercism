@@ -4,13 +4,13 @@ on:
     branches:
       - master
     paths:
-      - "rust/scrable-score/src/lib.rs"
+      - "rust/scrabble-score/src/lib.rs"
   pull_request:
     paths:
-      - "rust/scrable-score/src/lib.rs"
+      - "rust/scrabble-score/src/lib.rs"
 defaults:
   run:
-    working-directory: rust/scrable-score
+    working-directory: rust/scrabble-score
 jobs:
   clippy:
     name: Clippy

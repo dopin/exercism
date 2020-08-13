@@ -1,6 +1,6 @@
-![Rust Difference Of Squares](https://github.com/dopin/exercism/workflows/Rust%20Beer%20Difference%20Of%20Squares/badge.svg)
+![Rust Difference Of Squares](https://github.com/dopin/exercism/workflows/Rust%20Difference%20Of%20Squares/badge.svg)
 
-[My Solution](https://exercism.io/my/solutions/3db735f8362f4e3ab0e1938d529b474e)
+[My Solution](https://exercism.io/tracks/rust/exercises/difference-of-squares/solutions/3db735f8362f4e3ab0e1938d529b474e)
 
 ---
 

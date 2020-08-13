@@ -1,9 +1,9 @@
 pub fn square_of_sum(num: usize) -> usize {
-  (1..num+1).fold(0, |acc, n| acc + n).pow(2)
+    (1..num + 1).sum::<usize>().pow(2)
 }
 
 pub fn sum_of_squares(num: usize) -> usize {
-  (1..num+1).map(|n| n * n).fold(0, |acc, n| acc + n)
+    (1..num + 1).map(|n| n * n).sum()
 }
 
 pub fn difference(n: usize) -> usize {

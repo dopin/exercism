@@ -1,0 +1,27 @@
+name: Ruby Hamming
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "ruby/hamming/hamming.rb"
+  pull_request:
+    paths:
+      - "ruby/hamming/hamming.rb"
+defaults:
+  run:
+    working-directory: ruby/hamming
+
+jobs:
+  build:
+    runs-on: ubuntu-16.04
+    strategy:
+      matrix:
+        ruby: [ "2.7" ]
+    name: Ruby ${{ matrix.ruby }} Tests
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+        with:
+          ruby-version: ${{ matrix.ruby }}
+      - run: ruby hamming_test.rb

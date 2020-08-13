@@ -1,7 +1,7 @@
 
 ![Rust Hello World](https://github.com/dopin/exercism/workflows/Rust%20Nth%20Prime/badge.svg)
 
-[My Solution](https://exercism.io/my/solutions/a00f1e85f03d4aac9539b4ecce982647)
+[My Solution](https://exercism.io/tracks/rust/exercises/hello-world/solutions/a00f1e85f03d4aac9539b4ecce982647)
 
 ---
 

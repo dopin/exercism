@@ -1,3 +1,9 @@
+![Rust Raindrops](https://github.com/dopin/exercism/workflows/Rust%20Raindrops/badge.svg)
+
+[My Solution](https://exercism.io/tracks/rust/exercises/raindrops/solutions/71b7f8dfbfa840c381f19624d582b4e3)
+
+---
+
 # Raindrops
 
 Your task is to convert a number into a string that contains raindrop sounds corresponding to certain potential factors. A factor is a number that evenly divides into another number, leaving no remainder. The simplest way to test if a one number is a factor of another is to use the [modulo operation](https://en.wikipedia.org/wiki/Modulo_operation).

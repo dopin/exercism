@@ -1,5 +1,8 @@
 pub fn build_proverb(list: &[&str]) -> String {
     let len = list.len();
+    if len == 0 {
+        return String::new();
+    }
     let mut proverb: Vec<String> = Vec::with_capacity(len - 1);
     let mut iter = list.iter();
     iter.next();

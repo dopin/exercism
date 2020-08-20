@@ -12,6 +12,8 @@ IOW, remnants.
 
 ## Rust
 
+### Easy
+
 | Exercise | Solution | GitHub Actions Badge |
 |--|--|--|
 | [Hello World](rust/hello-world) | [Link](https://exercism.io/tracks/rust/exercises/hello-world/solutions/a00f1e85f03d4aac9539b4ecce982647) | ![Rust Hello World](https://github.com/dopin/exercism/workflows/Rust%20Hello%20World/badge.svg) |
@@ -22,7 +24,13 @@ IOW, remnants.
 | [Proverb](rust/proverb) | [Link](https://exercism.io/tracks/rust/exercises/proverb/solutions/671777d5da1743d99ed1e3d158f453d6) | ![Rust Proverb](https://github.com/dopin/exercism/workflows/Rust%20Proverb/badge.svg) |
 | [Difference Of Squares](rust/difference-of-squares) | [Link](https://exercism.io/tracks/rust/exercises/difference-of-squares/solutions/3db735f8362f4e3ab0e1938d529b474e) | ![Rust Difference Of Squares](https://github.com/dopin/exercism/workflows/Rust%20Difference%20Of%20Squares/badge.svg) |
 | [Sum Of Multiples](rust/sum-of-multiples) | [Link](https://exercism.io/tracks/rust/exercises/sum-of-multiples/solutions/19b4f49ecbc843f5bab6156a3fa64aa4) | ![Rust Sum Of Multiples](https://github.com/dopin/exercism/workflows/Rust%20Sum%20Of%20Multiples/badge.svg) |
+| [Gains](rust/sum-of-multiples) | - | ![Rust Gains](https://github.com/dopin/exercism/workflows/Rust%20Gains/badge.svg) |
 | [Gigasecond](rust/gigasecond) | [Link](https://exercism.io/tracks/rust/exercises/gigasecond/solutions/720ba3b0255f4432b519f80159ca36b8) | ![Rust Gigasecond](https://github.com/dopin/exercism/workflows/Rust%20Gigasecond/badge.svg) |
 | [Bob](rust/bob) | [Link](https://exercism.io/tracks/rust/exercises/bob/solutions/cb5522a2bfba46ecb751bafd821c0375) | ![Rust Bob](https://github.com/dopin/exercism/workflows/Rust%20Bob/badge.svg) |
+
+### Medium
+
+| Exercise | Solution | GitHub Actions Badge |
+|--|--|--|
 | [Hamming](rust/hamming) | [Link](https://exercism.io/tracks/rust/exercises/hamming/solutions/d734f892887149cfaf7a0d087af02efd) | ![Rust Hamming](https://github.com/dopin/exercism/workflows/Rust%20Hamming/badge.svg) |
 | [Scrabble Score](rust/scrabble-score) | [Link](https://exercism.io/tracks/rust/exercises/scrabble-score/solutions/4fee20ee87d340b98a36b1d8d140d4a1) | ![Rust Scrabble Score](https://github.com/dopin/exercism/workflows/Rust%20Scrabble%20Score/badge.svg) |

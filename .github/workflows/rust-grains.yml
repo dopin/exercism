@@ -10,7 +10,7 @@ on:
       - "rust/grains/src/lib.rs"
 defaults:
   run:
-    working-directory: rust/gains
+    working-directory: rust/grains
 jobs:
   clippy:
     name: Clippy
